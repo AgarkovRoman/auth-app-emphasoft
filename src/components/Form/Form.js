@@ -16,8 +16,7 @@ function Form(props) {
     async function postLogin (data) {
         try {
             const response = await axios.post('http://emphasoft-test-assignment.herokuapp.com/api-token-auth/', data);
-
-            if(response.status === 200) {
+            if (response.status === 200) {
                 console.log('200', response.data.token);
                 setAuthTokens(response.data);
                 setLoggedIn(true);
@@ -57,9 +56,9 @@ function Form(props) {
                             name="username"
                             ref={register({ required: true, minLength: 3, maxLength: 30 })}
                         />
-                        {errors.UserName && errors.UserName.type === 'required' && <p>This is required field</p> }
-                        {errors.UserName && errors.UserName.type === 'minLength' && <p>UserName must be more then 3 symbols</p> }
-                        {errors.UserName && errors.UserName.type === 'maxLength' && <p>UserName must be less then 30 symbols</p> }
+                        {errors.username && errors.username.type === 'required' && <p className="error">This is required field</p> }
+                        {errors.username && errors.username.type === 'minLength' && <p className="error">UserName should be more then 3 symbols</p> }
+                        {errors.username && errors.username.type === 'maxLength' && <p className="error">UserName should be less then 30 symbols</p> }
 
                     </div>
                     <div className="form__group">
@@ -72,9 +71,9 @@ function Form(props) {
                             name="password"
                             ref={register({ required: true, minLength: 6, maxLength: 30 })}
                         />
-                        {errors.Password && errors.Password.type === 'required' && <p>This is required field</p> }
-                        {errors.Password && errors.Password.type === 'minLength' && <p>UserName must be more then 6 symbols</p> }
-                        {errors.Password && errors.Password.type === 'maxLength' && <p>UserName must be less then 30 symbols</p> }
+                        {errors.password && errors.password.type === 'required' && <p className="error">This is required field</p> }
+                        {errors.password && errors.password.type === 'minLength' && <p className="error">UserName should be more then 6 symbols</p> }
+                        {errors.password && errors.password.type === 'maxLength' && <p className="error">UserName should be less then 30 symbols</p> }
                     </div>
                     <div className="form__group">
                         <button className="button form__button button--blue" type="submit">Login</button>

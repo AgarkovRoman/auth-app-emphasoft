@@ -7,11 +7,8 @@ function Home() {
         <>
             <h1 className="main-title">Home</h1>
             <ul>
-                <li>
-                    <Link to="/first">First task</Link>
-                </li>
-                <li>
-                    <Link to="/second">Second task</Link>
+                <li className='first-link'>
+                    <Link to="/first" className="link">First task</Link>
                 </li>
             </ul>
         </>

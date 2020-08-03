@@ -1,0 +1,41 @@
+$font-color: #141024
+$font-color-opacity: #1410243f
+$main-blue-color: #2161eb
+
+.wrapper
+  margin: 0 5%
+
+.controllers-container
+  display: flex
+
+.button
+  padding: .5rem 0.9rem
+  //max-width: 30%
+  min-height: 2rem
+  border-radius: 0.6rem
+  font-size: 1.4rem
+  line-height: 1.25rem
+  border: .13rem solid rgba(165,178,188,.3)
+  color: #fff
+  outline: none
+  cursor: pointer
+.button--blue
+  background-color: $main-blue-color
+  &:hover
+    border: .13rem solid  $main-blue-color
+
+.form__input
+  min-width: 50%
+  border-radius: .5rem
+  padding: 0.563rem 0.813rem
+  vertical-align: top
+  margin: 0
+  font-size: 1rem
+  line-height: 1.25rem
+  border: .13rem solid rgba(165,178,188,.3)
+  transition: border-color .1s,border-width .1s
+  &:active,&:focus
+    border-color: $main-blue-color
+
+.user-list
+  list-style: none

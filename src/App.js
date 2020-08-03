@@ -3,7 +3,6 @@ import './App.sass';
 import {Route, Switch, Redirect, withRouter, Link} from 'react-router-dom';
 import Login from './pages/login/Login';
 import First from './pages/firstTask/firstTask';
-import Second from "./pages/secondTask/secondTask";
 import { AuthContext } from './context/auth';
 import PrivateRoute from "./PrivateRoute";
 import Home from "./pages/home/Home";
@@ -26,7 +25,6 @@ function App(props) {
                   <PrivateRoute exact path="/" component={Home} />
                   <Route exact path="/login" component={Login} />
                   <PrivateRoute path="/First" component={First} />
-                  <PrivateRoute path="/second" component={Second} />
               </Switch>
           </div>
           </AuthContext.Provider>
