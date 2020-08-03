@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/auth-app-emphasoft/static/css/main.ddb038f9.chunk.css",
+    "main.js": "/auth-app-emphasoft/static/js/main.4031db04.chunk.js",
+    "main.js.map": "/auth-app-emphasoft/static/js/main.4031db04.chunk.js.map",
+    "runtime-main.js": "/auth-app-emphasoft/static/js/runtime-main.c3763952.js",
+    "runtime-main.js.map": "/auth-app-emphasoft/static/js/runtime-main.c3763952.js.map",
+    "static/js/2.20bfe25b.chunk.js": "/auth-app-emphasoft/static/js/2.20bfe25b.chunk.js",
+    "static/js/2.20bfe25b.chunk.js.map": "/auth-app-emphasoft/static/js/2.20bfe25b.chunk.js.map",
+    "index.html": "/auth-app-emphasoft/index.html",
+    "precache-manifest.bd7e91e19c3045f827564187aa55c530.js": "/auth-app-emphasoft/precache-manifest.bd7e91e19c3045f827564187aa55c530.js",
+    "service-worker.js": "/auth-app-emphasoft/service-worker.js",
+    "static/css/main.ddb038f9.chunk.css.map": "/auth-app-emphasoft/static/css/main.ddb038f9.chunk.css.map",
+    "static/js/2.20bfe25b.chunk.js.LICENSE.txt": "/auth-app-emphasoft/static/js/2.20bfe25b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3763952.js",
+    "static/js/2.20bfe25b.chunk.js",
+    "static/css/main.ddb038f9.chunk.css",
+    "static/js/main.4031db04.chunk.js"
+  ]
+}
