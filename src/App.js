@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './App.sass';
-import {Route, Switch, Redirect, withRouter, Link} from 'react-router-dom';
+import { Route, Switch, Redirect, withRouter, Link } from 'react-router-dom';
 import Login from './pages/login/Login';
 import First from './pages/firstTask/firstTask';
 import { AuthContext } from './context/auth';
@@ -17,19 +17,19 @@ function App(props) {
         setAuthTokens(data);
     }
 
-  return (
-      <>
-          <AuthContext.Provider value={{ authTokens, setAuthTokens: setTokens }}>
-          <div>
-              <Switch>
-                  <PrivateRoute exact path="/" component={Home} />
-                  <Route exact path="/login" component={Login} />
-                  <PrivateRoute path="/First" component={First} />
-              </Switch>
-          </div>
-          </AuthContext.Provider>
-      </>
-  );
+    return (
+        <>
+            <AuthContext.Provider value={{ authTokens, setAuthTokens: setTokens }}>
+                <div>
+                    <Switch>
+                        <PrivateRoute exact path="/" component={Home} />
+                        <Route exact path="/login" component={Login} />
+                        <PrivateRoute path="/first" component={First} />
+                    </Switch>
+                </div>
+            </AuthContext.Provider>
+        </>
+    );
 }
 
 export default App;
