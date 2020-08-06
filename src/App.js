@@ -23,7 +23,7 @@ function App(props) {
                 <div>
                     <Switch>
                         <PrivateRoute exact path="/" component={Home} />
-                        <Route exact path="/login" component={Login} />
+                        <Route exact path="/auth-app-emphasoft" component={Login} />
                         <PrivateRoute path="/first" component={First} />
                     </Switch>
                 </div>
