@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93a2ff847828814f01572e50f03a5067",
+    "revision": "26f570611301c83dcf3f490b17d7a370",
     "url": "/auth-app-emphasoft/index.html"
   },
   {
-    "revision": "dd73551fa6fd0ca6079e",
+    "revision": "b173ca000a9f9f4399b4",
     "url": "/auth-app-emphasoft/static/css/main.ddb038f9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/auth-app-emphasoft/static/js/2.20bfe25b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd73551fa6fd0ca6079e",
-    "url": "/auth-app-emphasoft/static/js/main.e908bf8b.chunk.js"
+    "revision": "b173ca000a9f9f4399b4",
+    "url": "/auth-app-emphasoft/static/js/main.513c88e6.chunk.js"
   },
   {
     "revision": "1379594f8b8b46a05bba",
